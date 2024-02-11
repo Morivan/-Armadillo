@@ -1,17 +1,3 @@
               Armadillo
-    Андроид-приложение по изучению криптографии
-Клиентская часть, используется:
-  Язык программирования: Jave и Kotlin
-  IDE: Android Studio
-  SDK: ?
-  Git: GitHub
-  Библиотека: Glide, ThreeTen или JodaTime, 
-  Frameworks:
-Связь и интеграция:
-  Git: GitHub
-QA Mobile:
-  Frameworks: Junit 5; Appium
-Материалы:
-  Текстовые материалы: Составленный курс
-  Для проверки теории: Н.Смарт университетский курс” Криптография”
+
 
