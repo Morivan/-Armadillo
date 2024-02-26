@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "843855129666",
+    "project_id": "armadillo-3bf62",
+    "storage_bucket": "armadillo-3bf62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843855129666:android:6eb9ee050871dfc2fad1db",
+        "android_client_info": {
+          "package_name": "com.example.armadillo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4_kazzofuOP3J0yo46BH6s06lmtY33gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
