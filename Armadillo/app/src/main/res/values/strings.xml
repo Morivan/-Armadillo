@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Armadillo</string>
+    <string name="button_text">Press me</string>
+</resources>
