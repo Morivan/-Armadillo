@@ -3,6 +3,7 @@ package com.example.armadillo;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -66,6 +67,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(MainActivity.this, "Auth complete", Toast.LENGTH_SHORT).show();
+
+                    Intent mainPage = new Intent(MainActivity.this, MainPage.class);
+                    startActivity(mainPage);
                 }
                 else{
                     Toast.makeText(MainActivity.this, "Auth failed", Toast.LENGTH_SHORT).show();
@@ -78,7 +82,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
-                    Toast.makeText(MainActivity.this, "Успешно зарегистрирован!шп", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Успешно зарегистрирован!", Toast.LENGTH_SHORT).show();
+                    Intent mainPage = new Intent(MainActivity.this, MainPage.class);
+                    startActivity(mainPage);
                 }
                 else{
                     Toast.makeText(MainActivity.this, "Register failed", Toast.LENGTH_SHORT).show();

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Armadillo</string>
     <string name="button_text">Press me</string>
+    <string name="armadillo">Armadillo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
