@@ -7,14 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainPage">
 
-    <!-- Контент основного экрана -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <!-- Название приложения -->
-
-        <!-- Кнопки лекции и задачи -->
 
         <TextView
             android:id="@+id/text_view"
