@@ -13,7 +13,7 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/armadillo"
+        android:text="@string/octobit"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Авторизация"/>
+            android:text="Авторизация" />
 
         <Button
             android:id="@+id/btn_registration"
@@ -69,6 +69,33 @@
             android:layout_weight="1"
             android:text="Регистрация"/>
 
+
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/or_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="292dp"
+        android:text="@string/or"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_without_registration"
+        android:layout_width="162dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:text="@string/continue_as_guest"
+        android:onClick="continue_as_guest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or_title" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
