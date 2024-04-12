@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Armadillo</string>
+    <string name="button_text">Press me</string>
+    <string name="armadillo">Armadillo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Octobit" />
+    <string name="octobit">Octobit</string>
+    <string name="or">Или</string>
+    <string name="continue_as_guest">Продолжить как гость</string>
+</resources>
