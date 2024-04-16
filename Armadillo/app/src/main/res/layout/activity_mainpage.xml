@@ -1,49 +1,124 @@
-<androidx.drawerlayout.widget.DrawerLayout
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainPage">
+    android:background="@color/dark_salmon"
+    tools:context="com.example.armadillo.MainPage">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="Armadillo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="339dp"
+        android:layout_height="637dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293">
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="@string/criptohistory"
+            android:textSize="24sp"
+            app:backgroundTint="@color/peach" />
 
         <Button
             android:id="@+id/button_lectures"
-            android:layout_width="217dp"
-            android:layout_height="59dp"
-            android:layout_marginTop="188dp"
-            android:text="Лекции"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_view" />
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="@string/symmetric_cipher"
+            android:textSize="24sp"
+            app:backgroundTint="@color/peach" />
 
         <Button
-            android:id="@+id/button_tasks"
-            android:layout_width="216dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="48dp"
-            android:text="Задачи"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button_lectures" />
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="@string/search_and_optimization"
+            android:textSize="24sp"
+            app:backgroundTint="@color/peach" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="@string/Trisemus"
+            android:textSize="24sp"
+            app:backgroundTint="@color/peach" />
 
-</androidx.drawerlayout.widget.DrawerLayout>
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="@string/Playfair"
+            android:textSize="24sp"
+            app:backgroundTint="@color/peach" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="75dp"
+        android:layout_gravity="start|center_vertical"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/blackberry_normal"
+        android:gravity="center_vertical|start"
+        android:paddingStart="10dp"
+        android:text="@string/modul2"
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="216dp"
+        android:layout_height="41dp"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/alumnisans_regular"
+        android:paddingStart="10dp"
+        android:text="@string/symmetric_cipher_cap"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.1"
+        tools:ignore="RtlSymmetry" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

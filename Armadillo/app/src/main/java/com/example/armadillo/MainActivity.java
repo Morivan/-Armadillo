@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
-    public void continue_as_guest(View view){
+    public void continue_as_guest(View v){
         Intent mainPage = new Intent(MainActivity.this, MainPage.class);
         startActivity(mainPage);
     }
