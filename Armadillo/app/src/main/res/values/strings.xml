@@ -22,6 +22,7 @@
     <string name="task">Задача</string>
     <string name="test">Тест</string>
     <string name="meow_task">задачка</string>
+    <string name="input">ввод</string>
     <string name="symmetric_cipher_text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus

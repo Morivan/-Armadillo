@@ -46,10 +46,11 @@
         android:background="@drawable/rounded_background"
         android:fontFamily="@font/alumnisans_regular"
         android:gravity="center"
+        android:onClick="testActivity"
         android:text="@string/test"
         android:textSize="62sp"
-        app:backgroundTint="@color/peach"
 
+        app:backgroundTint="@color/peach"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2" />
 

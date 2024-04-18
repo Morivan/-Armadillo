@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity"
+    android:background="@color/dark_salmon">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="358dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/violet"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="358dp"
+        android:layout_height="518dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="234dp"
+        android:layout_height="169dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="476dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="250dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/alumnisans_regular"
+        android:text="Кто придумал шифр Цезаря?"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="156dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view">
+
+        <Button
+            android:id="@+id/button_lectures2"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center"
+            android:text="Гай Юлий Цезарь"
+            android:textSize="32sp"
+            app:backgroundTint="@color/violet"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <Button
+            android:id="@+id/button_lectures3"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center"
+            android:text="Одиссей"
+            android:textSize="32sp"
+            app:backgroundTint="@color/violet"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <Button
+            android:id="@+id/button_lectures4"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center"
+            android:text="Октавиан Август"
+            android:textSize="32sp"
+            app:backgroundTint="@color/violet"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="333dp" />
+
+        <Button
+            android:id="@+id/button_lectures5"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center"
+            android:text="Полибий"
+            android:textSize="32sp"
+            app:backgroundTint="@color/violet"
+            tools:layout_editor_absoluteX="71dp"
+            tools:layout_editor_absoluteY="333dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
