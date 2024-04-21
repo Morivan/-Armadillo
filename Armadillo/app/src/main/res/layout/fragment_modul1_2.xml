@@ -22,7 +22,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="НОД и НОК"
             android:textSize="24sp" />
         <Button
@@ -32,7 +31,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Модулярная арифметика"
             android:textSize="24sp" />
         <Button
@@ -42,7 +40,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Первообразные корни"
             android:textSize="24sp" />
         <Button
@@ -52,7 +49,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Функции Эйлера"
             android:textSize="24sp" />
         <Button
@@ -62,7 +58,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Теорема Эйлера-Ферма"
             android:textSize="24sp" />
 
@@ -73,7 +68,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Факторизация целых чисел"
             android:textSize="24sp" />
     </LinearLayout>

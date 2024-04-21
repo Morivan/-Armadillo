@@ -22,7 +22,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="История"
             android:textSize="20sp"/>
 
@@ -33,7 +32,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Деление нацело"
             android:textSize="20sp" />
 
@@ -44,7 +42,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Деление с остатком"
             android:textSize="20sp" />
 
@@ -55,7 +52,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Признаки делимости"
             android:textSize="20sp" />
 
@@ -66,7 +62,6 @@
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
-            android:onClick="educationActivity"
             android:text="Простые числа"
             android:textSize="20sp" />
     </LinearLayout>
