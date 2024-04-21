@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modul1_1Fragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="377dp"
+        android:layout_height="588dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:translationY="30dp">
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="НОД и НОК"
+            android:textSize="24sp" />
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Модулярная арифметика"
+            android:textSize="24sp" />
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Первообразные корни"
+            android:textSize="24sp" />
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Функции Эйлера"
+            android:textSize="24sp" />
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Теорема Эйлера-Ферма"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Факторизация целых чисел"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/blackberry_normal"
+        android:gravity="center_vertical|start"
+        android:paddingStart="10dp"
+        android:text="@string/modul1"
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:translationY="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/alumnisans_regular"
+        android:paddingStart="10dp"
+        android:text="@string/advanced_mathematical_information_cap"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationX="70dp"
+        android:translationY="65dp"
+        tools:ignore="RtlSymmetry" />
+
+</FrameLayout>

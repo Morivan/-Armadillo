@@ -11,8 +11,14 @@
     <string name="continue_as_guest">Продолжить как гость</string>
     <string name="octo">octo</string>
     <string name="bit">bit</string>
+    <string name="modul1">Модуль 1.</string>
     <string name="modul2">Модуль 2.</string>
+    <string name="modul3">Модуль 3.</string>
+    <string name="modul4">Модуль 4.</string>
+    <string name="advanced_mathematical_information_cap">Предварительные математические сведения</string>
     <string name="symmetric_cipher_cap">Симетричное шифрование</string>
+    <string name="asymmetric_cipher_cap">Ассиметричное шифрование</string>
+    <string name="attacks_on_cryptosystems_cap">Атаки на криптосистемы</string>
     <string name="symmetric_cipher">cиметричное шифрование</string>
     <string name="criptohistory">история криптографии</string>
     <string name="search_and_optimization">перебор и оптимизация</string>
@@ -59,4 +65,6 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

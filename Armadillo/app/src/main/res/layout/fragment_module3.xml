@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Module3Fragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="377dp"
+        android:layout_height="588dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:translationY="30dp">
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="92dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="Введение в системы с открытым и закрытым ключом"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_lectures"
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
+            android:text="Принцип работы RSA"
+            android:textSize="24sp"
+            android:backgroundTint="@color/peach"/>
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="Принцип работы ECC"
+            android:textSize="24sp"
+            android:backgroundTint="@color/peach"/>
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/peach"
+            android:fontFamily="@font/alumnisans_regular"
+            android:gravity="center_vertical|start"
+            android:text="Система шифрования Эль-Гамаля"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/blackberry_normal"
+        android:gravity="center_vertical|start"
+        android:paddingStart="10dp"
+        android:text="@string/modul3"
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:translationY="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="213dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_background_text"
+        android:fontFamily="@font/alumnisans_regular"
+        android:paddingStart="10dp"
+        android:text="@string/asymmetric_cipher_cap"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:translationX="70dp"
+        android:translationY="65dp"
+        tools:ignore="RtlSymmetry" />
+
+</FrameLayout>

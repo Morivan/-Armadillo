@@ -9,8 +9,9 @@
     <color name="abricot">#FBC39C</color>
     <color name="peach">#E38764</color>
     <color name="dark_salmon">#e79d81</color>
+    <color name="dark_green_blue">#003B4A</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="non_color">#00000000</color>
-    <color name="roseQuartz">#b6a7b5</color>
+    <color name="rose_quartz">#b6a7b5</color>
 </resources>
