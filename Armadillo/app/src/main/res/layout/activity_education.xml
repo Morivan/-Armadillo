@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EducationActivity"
-    android:background="@color/dark_salmon">
+    android:background="@color/violet">
 
     <Button
         android:id="@+id/button2"
@@ -19,6 +19,7 @@
         android:text="@string/lecture"
         android:textSize="112sp"
         app:backgroundTint="@color/peach"
+        android:textColor="@color/violet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="lectureActivity"/>
@@ -26,32 +27,36 @@
     <Button
         android:layout_width="209dp"
         android:layout_height="291dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="220dp"
         android:background="@drawable/rounded_background"
         android:fontFamily="@font/alumnisans_regular"
         android:gravity="center"
+        android:onClick="taskActivity"
         android:text="@string/task"
+        android:textColor="@color/violet"
         android:textSize="62sp"
         app:backgroundTint="@color/peach"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button2"
-        android:onClick="taskActivity"/>
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="291dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginEnd="240dp"
+        android:id="@+id/button3"
+        android:layout_width="132dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="216dp"
         android:background="@drawable/rounded_background"
         android:fontFamily="@font/alumnisans_regular"
         android:gravity="center"
         android:onClick="testActivity"
         android:text="@string/test"
+        android:textColor="@color/violet"
         android:textSize="62sp"
-
         app:backgroundTint="@color/peach"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button2" />
 
     <TextView
@@ -59,12 +64,12 @@
         android:layout_width="415dp"
         android:layout_height="120dp"
         android:layout_marginBottom="56dp"
-        android:background="@color/violet"
+        android:background="@color/peach"
         android:fontFamily="@font/blackberry_normal"
         android:gravity="center"
         android:text="@string/symmetric_cipher"
         android:textAllCaps="true"
-        android:textColor="@color/white"
+        android:textColor="@color/violet"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"

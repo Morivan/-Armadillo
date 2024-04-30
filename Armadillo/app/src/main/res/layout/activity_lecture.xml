@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LectureActivity"
-    android:background="@color/violet">
+    android:background="@color/peach">
 
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="360dp"
-        android:layout_height="635dp"
+        android:layout_width="361dp"
+        android:layout_height="695dp"
         android:background="@drawable/rounded_background_lectures"
         android:gravity="center_horizontal"
         android:orientation="vertical"
@@ -28,17 +28,17 @@
             android:layout_height="75dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/rounded_background"
+
             android:fontFamily="@font/blackberry_normal"
             android:gravity="center"
             android:text="@string/symmetric_cipher"
             android:textAllCaps="true"
-            android:textColor="@color/white"
-            android:textSize="32sp"
-            app:backgroundTint="@color/violet" />
+            android:textColor="@color/violet"
+            android:textSize="32sp" />
 
         <ScrollView
             android:layout_width="334dp"
-            android:layout_height="525dp"
+            android:layout_height="589dp"
             android:layout_marginTop="10dp">
 
 
@@ -46,7 +46,8 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/symmetric_cipher_text" />
+                android:text="@string/symmetric_cipher_text"
+                android:textColor="@color/deep_purple" />
         </ScrollView>
 
 

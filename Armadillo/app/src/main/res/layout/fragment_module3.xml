@@ -11,6 +11,7 @@
         android:layout_height="588dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/rounded_background"
+        android:backgroundTint="@color/purple"
         android:gravity="center"
         android:orientation="vertical"
         android:translationY="30dp">
@@ -19,6 +20,7 @@
             android:layout_width="310dp"
             android:layout_height="92dp"
             android:backgroundTint="@color/peach"
+            android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="Введение в системы с открытым и закрытым ключом"
@@ -34,7 +36,8 @@
             android:onClick="educationActivity"
             android:text="Принцип работы RSA"
             android:textSize="24sp"
-            android:backgroundTint="@color/peach"/>
+            android:backgroundTint="@color/peach"
+            android:textColor="@color/violet"/>
 
         <Button
             android:layout_width="310dp"
@@ -44,13 +47,15 @@
             android:gravity="center_vertical|start"
             android:text="Принцип работы ECC"
             android:textSize="24sp"
-            android:backgroundTint="@color/peach"/>
+            android:backgroundTint="@color/peach"
+            android:textColor="@color/violet"/>
 
         <Button
             android:layout_width="310dp"
             android:layout_height="82dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/peach"
+            android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="Система шифрования Эль-Гамаля"
@@ -69,7 +74,7 @@
         android:paddingStart="10dp"
         android:text="@string/modul3"
         android:textAlignment="inherit"
-        android:textColor="@color/white"
+        android:textColor="@color/violet"
         android:textSize="42sp"
         android:translationY="10dp"
         tools:ignore="RtlSymmetry" />
@@ -85,7 +90,7 @@
         android:fontFamily="@font/alumnisans_regular"
         android:paddingStart="10dp"
         android:text="@string/asymmetric_cipher_cap"
-        android:textColor="@color/white"
+        android:textColor="@color/violet"
         android:textSize="20sp"
         android:translationX="70dp"
         android:translationY="65dp"

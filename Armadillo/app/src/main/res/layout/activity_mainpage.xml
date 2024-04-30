@@ -6,7 +6,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_salmon"
+    android:background="@color/violet"
     tools:context="com.example.armadillo.MainPage">
 
     <androidx.viewpager2.widget.ViewPager2
@@ -25,12 +25,15 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/violet"
+        app:tabTextColor="@color/white">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Модуль 1.1" />
+            android:text="Модуль 1.1"
+            />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
@@ -40,7 +43,9 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Модуль 2" />
+            android:text="Модуль 2"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="672dp" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"

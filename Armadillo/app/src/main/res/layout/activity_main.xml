@@ -5,9 +5,19 @@
     android:id="@+id/activity_authentication"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/abricot"
-    android:onClick="continue_as_guest"
+    android:background="@color/violet"
     tools:context="com.example.armadillo.MainActivity">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="234dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rounded_background_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_title1"
@@ -55,27 +65,31 @@
         app:layout_constraintTop_toBottomOf="@+id/et_password">
 
         <Button
-
             android:id="@+id/btn_sign_in"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/alumnisans_regular"
             android:text="@string/autorization"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/deep_purple" />
+            android:textColor="@color/violet"
+            app:backgroundTint="@color/peach"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp" />
 
         <Button
             android:id="@+id/btn_registration"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:autoSizeTextType="uniform"
             android:fontFamily="@font/alumnisans_regular"
             android:text="@string/registration"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/deep_purple" />
+            android:textColor="@color/violet"
+            app:backgroundTint="@color/peach"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+ />
 
 
     </LinearLayout>
@@ -87,7 +101,9 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/alumnisans_regular"
         android:hint="@string/email"
-        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textEmailAddress"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -102,7 +118,9 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/alumnisans_regular"
         android:hint="@string/password"
-        android:textColorHint="@color/black"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -116,7 +134,7 @@
         android:layout_marginTop="236dp"
         android:fontFamily="@font/alumnisans_regular"
         android:text="@string/or"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -126,15 +144,16 @@
         android:id="@+id/btn_without_registration"
         android:layout_width="186dp"
         android:layout_height="78dp"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:autoSizeTextType="uniform"
         android:fontFamily="@font/alumnisans_regular"
         android:onClick="continue_as_guest"
         android:text="@string/continue_as_guest"
-        android:textColor="@color/white"
-        app:backgroundTint="@color/deep_purple"
+        android:textColor="@color/violet"
+        app:backgroundTint="@color/peach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/or_title" />
 
@@ -142,10 +161,11 @@
         android:id="@+id/imageView"
         android:layout_width="274dp"
         android:layout_height="271dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="28dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="@+id/tv_title1"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_foreground" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
