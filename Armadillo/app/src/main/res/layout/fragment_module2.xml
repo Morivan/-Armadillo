@@ -17,6 +17,7 @@
         android:translationY="30dp">
 
         <Button
+            android:id="@+id/button_lectures1"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:backgroundTint="@color/peach"
@@ -24,10 +25,11 @@
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="@string/criptohistory"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:onClick="educationActivity"/>
 
         <Button
-            android:id="@+id/button_lectures"
+            android:id="@+id/button_lectures2"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -40,6 +42,7 @@
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/button_lectures3"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -48,9 +51,11 @@
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="@string/search_and_optimization"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:onClick="educationActivity"/>
 
         <Button
+            android:id="@+id/button_lectures4"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -59,9 +64,11 @@
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="@string/Trisemus"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:onClick="educationActivity"/>
 
         <Button
+            android:id="@+id/button_lectures5"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -70,7 +77,8 @@
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:text="@string/Playfair"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:onClick="educationActivity"/>
     </LinearLayout>
 
     <TextView
@@ -92,16 +100,17 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="182dp"
+        android:layout_width="193dp"
         android:layout_height="31dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginEnd="20dp"
         android:gravity="center_vertical"
         android:background="@drawable/rounded_background_text"
+        android:backgroundTint="@color/violet"
         android:fontFamily="@font/alumnisans_regular"
         android:paddingStart="10dp"
         android:text="@string/symmetric_cipher_cap"
-        android:textColor="@color/violet"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:translationX="70dp"
         android:translationY="65dp"

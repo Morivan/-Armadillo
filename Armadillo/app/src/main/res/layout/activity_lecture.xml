@@ -23,30 +23,27 @@
         app:layout_constraintVertical_bias="0.25">
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="259dp"
-            android:layout_height="75dp"
+            android:id="@+id/title_lecture"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/rounded_background"
-
             android:fontFamily="@font/blackberry_normal"
             android:gravity="center"
-            android:text="@string/symmetric_cipher"
             android:textAllCaps="true"
             android:textColor="@color/violet"
             android:textSize="32sp" />
 
         <ScrollView
-            android:layout_width="334dp"
-            android:layout_height="589dp"
+            android:layout_width="331dp"
+            android:layout_height="611dp"
             android:layout_marginTop="10dp">
 
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/body_lecture"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/symmetric_cipher_text"
                 android:textColor="@color/deep_purple" />
         </ScrollView>
 

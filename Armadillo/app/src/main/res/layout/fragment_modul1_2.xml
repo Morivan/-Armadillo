@@ -17,6 +17,7 @@
         android:translationY="30dp">
 
         <Button
+            android:id="@+id/button_lectures1"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="30dp"
@@ -24,9 +25,11 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="НОД и НОК"
             android:textSize="24sp" />
         <Button
+            android:id="@+id/button_lectures2"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -34,9 +37,11 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="Модулярная арифметика"
             android:textSize="24sp" />
         <Button
+            android:id="@+id/button_lectures3"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -44,9 +49,11 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="Первообразные корни"
             android:textSize="24sp" />
         <Button
+            android:id="@+id/button_lectures4"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -54,9 +61,11 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="Функции Эйлера"
             android:textSize="24sp" />
         <Button
+            android:id="@+id/button_lectures5"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -64,10 +73,12 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="Теорема Эйлера-Ферма"
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/button_lectures6"
             android:layout_width="310dp"
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
@@ -75,6 +86,7 @@
             android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
+            android:onClick="educationActivity"
             android:text="Факторизация целых чисел"
             android:textSize="24sp" />
     </LinearLayout>
@@ -98,15 +110,16 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="190dp"
-        android:layout_height="50dp"
+        android:layout_width="182dp"
+        android:layout_height="31dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginEnd="20dp"
         android:background="@drawable/rounded_background_text"
+        android:backgroundTint="@color/violet"
         android:fontFamily="@font/alumnisans_regular"
         android:paddingStart="10dp"
         android:text="@string/advanced_mathematical_information_cap"
-        android:textColor="@color/violet"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:translationX="70dp"
         android:translationY="65dp"

@@ -1,35 +1,42 @@
-package com.example.armadillo;
+    package com.example.armadillo;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
+    import android.content.Intent;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager2.widget.ViewPager2;
-import com.google.android.material.tabs.TabLayout;
-import com.google.android.material.tabs.TabLayoutMediator;
+    import androidx.appcompat.app.AppCompatActivity;
+    import androidx.viewpager2.widget.ViewPager2;
 
-public class MainPage extends AppCompatActivity {
+    import com.google.android.material.tabs.TabLayout;
+    import com.google.android.material.tabs.TabLayoutMediator;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mainpage);
+    public class MainPage extends AppCompatActivity {
 
-        ViewPager2 viewPager = findViewById(R.id.viewPager);
-        TabLayout tabLayout = findViewById(R.id.mainpage_tab);
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_mainpage);
 
-        TabPagerAdapter adapter = new TabPagerAdapter(this);
-        viewPager.setAdapter(adapter);
+            ViewPager2 viewPager = findViewById(R.id.viewPager);
+            TabLayout tabLayout = findViewById(R.id.mainpage_tab);
 
-        new TabLayoutMediator(tabLayout, viewPager,
-                (tab, position) -> tab.setText(adapter.getTitle(position))
-        ).attach();
+            TabPagerAdapter adapter = new TabPagerAdapter(this);
+            viewPager.setAdapter(adapter);
+
+            new TabLayoutMediator(tabLayout, viewPager,
+                    (tab, position) -> tab.setText(adapter.getTitle(position))
+            ).attach();
+        }
+        public void educationActivity(View v){
+            Intent intent = new Intent(this, EducationActivity.class);
+            // Получаем текст кнопки, который является названием темы
+            String selectedTheme = ((Button)v).getText().toString();
+            // Передаем название темы через Intent
+            intent.putExtra("theme", selectedTheme);
+            startActivity(intent);
+        }
+
     }
-    public void educationActivity(View v){
-        Intent intent = new Intent(this, EducationActivity.class);
-        startActivity(intent);
-    }
-}
 
 

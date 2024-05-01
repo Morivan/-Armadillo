@@ -14,21 +14,27 @@
         tools:targetApi="s">
         <activity
             android:name=".MainPage"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".TestActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".TaskActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".LectureActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".EducationActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
