@@ -27,7 +27,7 @@
             android:onClick="educationActivity"
             android:text="История развития теории чисел"
             android:textColor="@color/violet"
-            android:textSize="24sp"/>
+            android:textSize="24sp" />
 
         <Button
             android:id="@+id/button_lectures2"
@@ -36,10 +36,10 @@
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/peach"
             android:fontFamily="@font/alumnisans_regular"
-            android:textColor="@color/violet"
             android:gravity="center_vertical|start"
             android:onClick="educationActivity"
             android:text="Деление нацело"
+            android:textColor="@color/violet"
             android:textSize="24sp" />
 
         <Button
@@ -48,11 +48,11 @@
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/peach"
-            android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:onClick="educationActivity"
             android:text="Деление с остатком"
+            android:textColor="@color/violet"
             android:textSize="24sp" />
 
         <Button
@@ -61,11 +61,11 @@
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/peach"
-            android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:onClick="educationActivity"
             android:text="Признаки делимости"
+            android:textColor="@color/violet"
             android:textSize="24sp" />
 
         <Button
@@ -74,11 +74,11 @@
             android:layout_height="66dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/peach"
-            android:textColor="@color/violet"
             android:fontFamily="@font/alumnisans_regular"
             android:gravity="center_vertical|start"
             android:onClick="educationActivity"
             android:text="Простые числа"
+            android:textColor="@color/violet"
             android:textSize="24sp" />
     </LinearLayout>
 

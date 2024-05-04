@@ -14,9 +14,9 @@
         android:layout_marginTop="104dp"
         android:layout_marginEnd="36dp"
         android:fontFamily="@font/agencyfb_font"
-        android:text="
- Are you too, Brutus\n\n
-    Зашифруй сообшение по заветам Цезаря и со сдвигом 4."
+        android:text="Are you too, Brutus\n
+ Ответ: Duh brx wrr, Euxwxv\n
+    Зашифруй сообшение по заветам Цезаря и со сдвигом 3."
         android:textColor="@color/peach"
         android:textSize="38dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +66,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
+        android:id="@+id/answer"
         android:layout_width="308dp"
         android:layout_height="56dp"
         android:layout_marginTop="488dp"
@@ -80,6 +81,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,9 @@
     <color name="deep_purple">#C7D1FF</color>
     <color name="purple">#330363</color>
     <color name="pale_purple">#7d637c</color>
-    <color name="lilac">#A953E9</color>
-    <color name="light_orange">#FF9E77</color>
+    <color name="lilac">#B971EE</color>
+    <color name="light_lilac">#DDB0FF</color>
+    <color name="light_orange">#E38764</color>
     <color name="abricot">#FBC39C</color>
     <color name="peach">#FFAC8C</color>
     <color name="dark_salmon">#C46F6C</color>
